@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="DEBUG" monitorInterval="21600">
+    <Properties>
+        <Property name="PID">????</Property>
+        <Property name="LOG_LEVEL_PATTERN">[%5p]</Property>
+        <property name="FILTERS">
+            java.lang.reflect.Method,
+            org.apache.catalina,
+            org.springframework.aop,
+            org.springframework.security,
+            org.springframework.transaction,
+            org.springframework.web,
+            sun.reflect,
+            net.sf.cglib,
+            javax.security.auth.Subject,
+            java.security.AccessController
+        </property>
+        <Property name="LOG_EXCEPTION_CONVERSION_WORD">%xEx{filters(${FILTERS})}</Property>
+        <Property name="LOG_TIME_FORMAT">[%d{yyyy-MM-dd HH:mm:ss,SSS}]</Property>
+        <Property name="LOG_PATH">logs</Property>
+        <!--<Property name="LOG_PATTERN">%clr{%d{yyyy-MM-dd HH:mm:ss.SSS}}{faint}%clr{${LOG_LEVEL_PATTERN}} %clr{${sys:PID}}{magenta} %clr{-&#45;&#45;}{faint}%clr{[%15.15t]}{faint} %clr{%-40.40c{1.}}{cyan} %clr{:}{faint}%m%n${sys:LOG_EXCEPTION_CONVERSION_WORD}</Property>-->
+        <Property name="LOG_PATTERN">${sys:LOG_TIME_FORMAT} ${LOG_LEVEL_PATTERN} ${sys:PID} [%t] %-40.40c{1.} - %X{trackingID} - %m${sys:LOG_EXCEPTION_CONVERSION_WORD}%n</Property>
+    </Properties>
+
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT" follow="true">
+            <PatternLayout pattern="${sys:CONSOLE_LOG_PATTERN}"/>
+        </Console>
+    </Appenders>
+
+    <Loggers>
+
+        <Logger name="org.apache.kafka" level="TRACE" additivity="false" includeLocation="false">
+            <AppenderRef ref="Console" />
+        </Logger>
+
+        <Logger name="org.springframework.kafka" level="TRACE" additivity="false" includeLocation="false">
+            <AppenderRef ref="Console" />
+        </Logger>
+
+        <root level="TRACE">
+             <AppenderRef ref="Console" />
+        </root>
+    </Loggers>
+</Configuration>

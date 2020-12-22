@@ -1,0 +1,28 @@
+logging:
+  config:
+    classpath: log4j2-dev.xml
+server:
+  port : 8081
+spring:
+  kafka:
+    producer:
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+      acks: all
+      batch-size: 20
+      buffer-memory: 2097152
+
+    #bootstrap-servers: bt1-kafka-s.webex.com:9092
+      bootstrap-servers: localhost:9092
+    properties:
+      request.timeout.ms: 60001
+      max.block.ms: 20001
+      ## 2.5 version not exist
+      retries: 3
+      max.in.flight.request.per.connection: 1
+      ## 2.5 version not exist
+      retry.backoff.ms: 201
+      reconnect.backoff.max.ms: 201
+      reconnect.backoff.ms: 101
+      metadata.max.age.ms: 5000
+      linger.ms: 20
+      timout.ms: 3001

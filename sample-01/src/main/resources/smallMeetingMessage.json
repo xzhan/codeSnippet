@@ -1,0 +1,59 @@
+{
+  "version": "3.0",
+  "messageUUID": "4857c857-0284-4238-8780-ddbb767fdf93",
+  "trackingID": "82EF1C805D9542C7BCD9CEBBCAA172BE_1607879322220",
+  "operationType": "UPDATE",
+  "actionType": null,
+  "timestamp": 1608021133603,
+  "url": null,
+  "siteUUID": "aaf72438fa951d4de053ad06fc0a637d",
+  "meetingUUID": "8512a6e68d9b472d89f96a8e91833aa1",
+  "meetingTopic": "聚鼎APP网址：https://28juding.com/download（用浏览器打开）",
+  "hostID": 599205382,
+  "passwordProtected": true,
+  "requireLogin": false,
+  "scheduleType": "Scheduled",
+  "serviceType": "MC",
+  "startTime": "2020-12-14T16:35:00Z",
+  "duration": 3000000,
+  "rrule": null,
+  "invitees": [
+    {
+      "name": "Yichun Zhang",
+      "email": "yichunzh@cisco.com",
+      "userID": "96347"
+    },
+    {
+      "name": "Yichun Zhang",
+      "email": "yichunzh@cisco.com",
+      "userID": "96347"
+    },
+    {
+      "name": "994804883@qq.com",
+      "email": "994804883@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "996808141@qq.com",
+      "email": "996808141@qq.com",
+      "userID": "0"
+    }
+  ],
+  "meetingKey": "2132401188",
+  "hostInfo": {
+    "displayName": "Yichun Zhang",
+    "email": "yichunzh@cisco.com",
+    "username": "yichunzh",
+    "ciOrgID": "1eb65fdf-9643-417f-9974-ad72cae0e10f",
+    "ciUserUUID": "fe730afc-ca90-424d-b1e2-d8ce5f769ca8",
+    "userID": null
+  },
+  "creatorID": "599205382",
+  "listType": "PRIVATE",
+  "scheduleSource": "DEFAULT",
+  "exceptionMeeting": false,
+  "seriesMeetingUUID": null,
+  "recurrenceType": "NoRepeat",
+  "occurrenceID": null,
+  "hostType": "1001001"
+}
