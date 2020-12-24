@@ -1,0 +1,87 @@
+[
+  {
+    "name": "hello-1-per-minute",
+    "description": "End-point policy that limits requests to '/hello' at 1 requests/min",
+    "enforce": true,
+    "match": [
+      {
+        "type": "end-point",
+        "url": "/hello",
+        "method": "GET"
+      }
+    ],
+    "action": [
+      {
+        "type": "rate",
+        "permits": "1",
+        "interval": "1min",
+        "scope":"PROCESS"
+      }
+    ]
+  },
+
+  {
+    "name": "allow-name-containing-andy",
+    "description": "End-point policy that allows certain certain values of a parameter",
+    "enforce":true,
+    "match": [
+      {
+        "type": "end-point",
+        "url": "/hello",
+        "param": "name",
+        "paramValue": ".*andy.*"
+      }
+    ],
+    "action": [
+      {
+        "type": "allow"
+      }
+    ]
+  },
+
+  {
+    "name": "rate-limit-goodbye",
+    "description": "rate-limit requests to /goodbye at 10 requests/min",
+    "enforce": true,
+    "match": [
+      {
+        "type": "end-point",
+        "url": "/good.*",
+        "method":"GET"
+      }
+    ],
+    "action": [
+      {
+        "type": "rate",
+        "permits": "10",
+        "interval": "1min",
+        "scope":"PROCESS"
+      }
+    ]
+  },
+
+  {
+    "name": "limit-specific-User-Agent",
+    "description": "limit a specific user agent to lower rate limit",
+    "enforce": true,
+    "match": [
+      {
+        "type": "end-point",
+        "url": "/good.*",
+        "header": "User-Agent",
+        "headerValue": ".*Mozilla.*"
+      }
+    ],
+    "action": [
+      {
+        "type": "rate",
+        "permits": "1",
+        "interval":"1min",
+        "scope":"PROCESS"
+      }
+    ]
+  }
+
+
+]
+
