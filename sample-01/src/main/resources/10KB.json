@@ -1,0 +1,864 @@
+{
+  "version": "3.0",
+  "messageUUID": "b2ea79a0-e860-475e-b13f-d5f0ee82ef56",
+  "trackingID": "D40CE0AEEBA94D2B9D424659A235F6AE_1609202495992",
+  "operationType": "UPDATE",
+  "actionType": null,
+  "timestamp": 1609205431190,
+  "url": null,
+  "siteUUID": "aafb2cd299e31ef7e053ad06fc0ac931",
+  "meetingUUID": "182729a66dcb46a58dc5b80fd0364207",
+  "meetingTopic": "伽嗱汏君羊7010545伍拾宋拾捌",
+  "hostID": 599678302,
+  "passwordProtected": true,
+  "requireLogin": false,
+  "scheduleType": "Scheduled",
+  "serviceType": "MC",
+  "startTime": "2020-12-31T00:45:00Z",
+  "duration": 3600000,
+  "rrule": null,
+  "invitees": [
+    {
+      "name": "力口拿大7010545",
+      "email": "tgm71182@cuoly.com",
+      "userID": "599678302"
+    },
+    {
+      "name": "1017715221@qq.com",
+      "email": "1017715221@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "10221062@qq.com",
+      "email": "10221062@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "1033690247@qq.com",
+      "email": "1033690247@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "1091165224@qq.com",
+      "email": "1091165224@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "1093800734@qq.com",
+      "email": "1093800734@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "1094471070@qq.com",
+      "email": "1094471070@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "1098816334@qq.com",
+      "email": "1098816334@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "1120498481@qq.com",
+      "email": "1120498481@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "1160795808@qq.com",
+      "email": "1160795808@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "1194006215@qq.com",
+      "email": "1194006215@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "1194882112@qq.com",
+      "email": "1194882112@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "1203098544@qq.com",
+      "email": "1203098544@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "120367455@qq.com",
+      "email": "120367455@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "1213005590@qq.com",
+      "email": "1213005590@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "1214448553@qq.com",
+      "email": "1214448553@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "1225398705@qq.com",
+      "email": "1225398705@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "1228796014@qq.com",
+      "email": "1228796014@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "1261525498@qq.com",
+      "email": "1261525498@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "1275920872@qq.com",
+      "email": "1275920872@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "1281219675@qq.com",
+      "email": "1281219675@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "1318431578@qq.com",
+      "email": "1318431578@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "1336071782@qq.com",
+      "email": "1336071782@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "1359490637@qq.com",
+      "email": "1359490637@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "1361196599@qq.com",
+      "email": "1361196599@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "1372589050@qq.com",
+      "email": "1372589050@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "1416354452@qq.com",
+      "email": "1416354452@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "1435525008@qq.com",
+      "email": "1435525008@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "1447007579@qq.com",
+      "email": "1447007579@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "1464019236@qq.com",
+      "email": "1464019236@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "1486895800@qq.com",
+      "email": "1486895800@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "1510296818@qq.com",
+      "email": "1510296818@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "1511426168@qq.com",
+      "email": "1511426168@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "1516851305@qq.com",
+      "email": "1516851305@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "1586339032@qq.com",
+      "email": "1586339032@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "1603847473@qq.com",
+      "email": "1603847473@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "1611328923@qq.com",
+      "email": "1611328923@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "1643019167@qq.com",
+      "email": "1643019167@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "1658286612@qq.com",
+      "email": "1658286612@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "1696727328@qq.com",
+      "email": "1696727328@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "1712613575@qq.com",
+      "email": "1712613575@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "1725488592@qq.com",
+      "email": "1725488592@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "1742771736@qq.com",
+      "email": "1742771736@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "1751004092@qq.com",
+      "email": "1751004092@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "1753650192@qq.com",
+      "email": "1753650192@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "1760725115@qq.com",
+      "email": "1760725115@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "1765377603@qq.com",
+      "email": "1765377603@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "1772347909@qq.com",
+      "email": "1772347909@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "1784242240@qq.com",
+      "email": "1784242240@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "178481894@qq.com",
+      "email": "178481894@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "190386091@qq.com",
+      "email": "190386091@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "1919217364@qq.com",
+      "email": "1919217364@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "1919246079@qq.com",
+      "email": "1919246079@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "1923934538@qq.com",
+      "email": "1923934538@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "caoshangfeng和记-群1072271512备用群591727福利多多 ",
+      "email": "1930568613@qq.com",
+      "userID": "599244337"
+    },
+    {
+      "name": "1942048482@qq.com",
+      "email": "1942048482@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "2063940645@qq.com",
+      "email": "2063940645@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "2082544034@qq.com",
+      "email": "2082544034@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "2090872480@qq.com",
+      "email": "2090872480@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "2095631902@qq.com",
+      "email": "2095631902@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "2146376530@qq.com",
+      "email": "2146376530@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "2215493046@qq.com",
+      "email": "2215493046@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "2279924687@qq.com",
+      "email": "2279924687@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "2331607470@qq.com",
+      "email": "2331607470@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "2339576938@qq.com",
+      "email": "2339576938@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "2360488198@qq.com",
+      "email": "2360488198@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "2401122476@qq.com",
+      "email": "2401122476@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "240198099@qq.com",
+      "email": "240198099@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "2403246587@qq.com",
+      "email": "2403246587@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "2411807824@qq.com",
+      "email": "2411807824@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "2425366179@qq.com",
+      "email": "2425366179@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "2428410625@qq.com",
+      "email": "2428410625@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "2542931137@qq.com",
+      "email": "2542931137@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "2587829469@qq.com",
+      "email": "2587829469@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "2625399158@qq.com",
+      "email": "2625399158@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "2630815999@qq.com",
+      "email": "2630815999@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "2645787773@qq.com",
+      "email": "2645787773@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "2645876788@qq.com",
+      "email": "2645876788@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "2668559118@qq.com",
+      "email": "2668559118@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "2669363367@qq.com",
+      "email": "2669363367@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "2695592509@qq.com",
+      "email": "2695592509@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "2696100031@qq.com",
+      "email": "2696100031@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "2750054920@qq.com",
+      "email": "2750054920@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "2810169377@qq.com",
+      "email": "2810169377@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "2819214534@qq.com",
+      "email": "2819214534@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "2819257270@qq.com",
+      "email": "2819257270@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "2819985161@qq.com",
+      "email": "2819985161@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "2822251374@qq.com",
+      "email": "2822251374@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "2822313442@qq.com",
+      "email": "2822313442@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "2826643387@qq.com",
+      "email": "2826643387@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "282677309@qq.com",
+      "email": "282677309@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "282685096@qq.com",
+      "email": "282685096@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "28269401@qq.com",
+      "email": "28269401@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "284042572@qq.com",
+      "email": "284042572@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "2873556596@qq.com",
+      "email": "2873556596@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "289985984@qq.com",
+      "email": "289985984@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "2911651930@qq.com",
+      "email": "2911651930@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "3038836449@qq.com",
+      "email": "3038836449@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "3040253938@qq.com",
+      "email": "3040253938@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "304342967@qq.com",
+      "email": "304342967@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "3106662487@qq.com",
+      "email": "3106662487@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "3148329018@qq.com",
+      "email": "3148329018@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "314878044@qq.com",
+      "email": "314878044@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "314878218@qq.com",
+      "email": "314878218@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "3153878810@qq.com",
+      "email": "3153878810@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "3155782008@qq.com",
+      "email": "3155782008@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "3156248079@qq.com",
+      "email": "3156248079@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "3165177201@qq.com",
+      "email": "3165177201@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "3177500973@qq.com",
+      "email": "3177500973@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "3229680734@qq.com",
+      "email": "3229680734@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "3245374582@qq.com",
+      "email": "3245374582@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "3260858091@qq.com",
+      "email": "3260858091@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "3265572301@qq.com",
+      "email": "3265572301@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "3265944478@qq.com",
+      "email": "3265944478@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "3351946667@qq.com",
+      "email": "3351946667@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "364589522@qq.com",
+      "email": "364589522@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "36719422@qq.com",
+      "email": "36719422@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "380386792@qq.com",
+      "email": "380386792@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "382465214@qq.com",
+      "email": "382465214@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "384205160@qq.com",
+      "email": "384205160@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "384756615@qq.com",
+      "email": "384756615@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "408299829@qq.com",
+      "email": "408299829@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "41372994@qq.com",
+      "email": "41372994@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "419668355@qq.com",
+      "email": "419668355@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "452682330@qq.com",
+      "email": "452682330@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "459014060@qq.com",
+      "email": "459014060@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "4646153@qq.com",
+      "email": "4646153@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "490024223@qq.com",
+      "email": "490024223@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "499827363@qq.com",
+      "email": "499827363@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "511674447@qq.com",
+      "email": "511674447@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "515791833@qq.com",
+      "email": "515791833@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "toukandou和记，群1070545794备用群591727活动多多 ",
+      "email": "51757702@qq.com",
+      "userID": "599459222"
+    },
+    {
+      "name": "546740699@qq.com",
+      "email": "546740699@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "553355553@qq.com",
+      "email": "553355553@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "575653998@qq.com",
+      "email": "575653998@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "584541175@qq.com",
+      "email": "584541175@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "609558701@qq.com",
+      "email": "609558701@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "623705078@qq.com",
+      "email": "623705078@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "627899265@qq.com",
+      "email": "627899265@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "632497323@qq.com",
+      "email": "632497323@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "707310770@qq.com",
+      "email": "707310770@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "708975595@qq.com",
+      "email": "708975595@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "717367275@qq.com",
+      "email": "717367275@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "723212972@qq.com",
+      "email": "723212972@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "731889781@qq.com",
+      "email": "731889781@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "744653377@qq.com",
+      "email": "744653377@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "787434174@qq.com",
+      "email": "787434174@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "793160949@qq.com",
+      "email": "793160949@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "815794598@qq.com",
+      "email": "815794598@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "834167867@qq.com",
+      "email": "834167867@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "837576931@qq.com",
+      "email": "837576931@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "840198740@qq.com",
+      "email": "840198740@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "842230615@qq.com",
+      "email": "842230615@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "854775268@qq.com",
+      "email": "854775268@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "906175790@qq.com",
+      "email": "906175790@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "906224673@qq.com",
+      "email": "906224673@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "932197213@qq.com",
+      "email": "932197213@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "936413944@qq.com",
+      "email": "936413944@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "937340355@qq.com",
+      "email": "937340355@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "956999124@qq.com",
+      "email": "956999124@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "963101272@qq.com",
+      "email": "963101272@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "97023494@qq.com",
+      "email": "97023494@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "972799915@qq.com",
+      "email": "972799915@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "978520024@qq.com",
+      "email": "978520024@qq.com",
+      "userID": "0"
+    },
+    {
+      "name": "985263929@qq.com",
+      "email": "985263929@qq.com",
+      "userID": "0"
+    }
+  ],
+  "meetingKey": "1658263410",
+  "hostInfo": {
+    "displayName": "力口拿大7010545",
+    "email": "tgm71182@cuoly.com",
+    "username": "tgm71182@cuoly.com",
+    "ciOrgID": null,
+    "ciUserUUID": null,
+    "userID": null
+  },
+  "creatorID": "599678302",
+  "listType": "PRIVATE",
+  "scheduleSource": "DEFAULT",
+  "exceptionMeeting": false,
+  "seriesMeetingUUID": null,
+  "recurrenceType": "NoRepeat",
+  "occurrenceID": null,
+  "hostType": "1001001"
+}

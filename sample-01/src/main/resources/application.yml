@@ -26,3 +26,11 @@ spring:
       metadata.max.age.ms: 5000
       linger.ms: 20
       timout.ms: 3001
+
+webex:
+  kafkaclient:
+    cache:
+        caffeine:
+             spec:
+               abnormalMessageCache:
+                   maximumSize=1000, expireAfterWrite=12s
