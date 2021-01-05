@@ -26,6 +26,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cache.CacheManager;
 import org.springframework.cache.caffeine.CaffeineCache;
 import org.springframework.kafka.core.KafkaTemplate;
@@ -55,6 +56,9 @@ public class Controller {
 	@Qualifier(value = "KAFKA_TEMPLATE_NOTIFICATION")
 	private KafkaTemplate<Object, Object> template;
 
+	@Value("${webex.kafkaclient.count}")
+	private int ratelimit;
+
 	@PostMapping(path = "/send/foo/{what}")
 	public void sendFoo(@PathVariable String what) {
 		this.template.send("topic1", new Foo1(what));
@@ -82,7 +86,7 @@ public class Controller {
 			} else{
 				logger.error("ignore the message index " +index);
 			}
-			  Thread.sleep(2000);
+			  Thread.sleep(500);
 		  index --;
 		}
 	}
@@ -132,8 +136,8 @@ public class Controller {
 		Cache<Object, Object> nativeCache = caffeineCache.getNativeCache();
 		AtomicInteger atomicInteger = (AtomicInteger) nativeCache.get(key, s -> new AtomicInteger(0));
 		int sum = atomicInteger.addAndGet(1);
-		nativeCache.asMap().forEach((k,v) -> logger.info(k + " : " + v));
-		return sum <= 5;
+		nativeCache.asMap().forEach((k,v) -> logger.info("abnormalMessageCache: " + k + " : " + v));
+		return sum <= ratelimit;
 
 	}
 }

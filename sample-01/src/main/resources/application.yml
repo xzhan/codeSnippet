@@ -33,4 +33,5 @@ webex:
         caffeine:
              spec:
                abnormalMessageCache:
-                   maximumSize=1000, expireAfterWrite=12s
+                   maximumSize=1000, expireAfterWrite=180s
+    count: 60
