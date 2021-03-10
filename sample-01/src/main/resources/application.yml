@@ -27,6 +27,8 @@ spring:
       linger.ms: 20
       timout.ms: 3001
 
+
+
 webex:
   kafkaclient:
     cache:
@@ -35,3 +37,14 @@ webex:
                abnormalMessageCache:
                    maximumSize=1000, expireAfterWrite=180s
     count: 60
+  wns:
+    url:
+      sj1: http://localhost:8081/sj1
+      ln1: http://localhost:8081/ln1
+
+
+feign:
+  hystrix:
+    enabled : false
+  okhttp:
+    enabled : true
