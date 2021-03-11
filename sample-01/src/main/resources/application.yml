@@ -36,6 +36,8 @@ webex:
              spec:
                abnormalMessageCache:
                    maximumSize=1000, expireAfterWrite=180s
+               failMessageCache:
+                   maximumSize=1000, expireAfterWrite=180s
     count: 60
   wns:
     url:

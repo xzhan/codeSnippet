@@ -30,6 +30,7 @@ import org.springframework.kafka.listener.DeadLetterPublishingRecoverer;
 import org.springframework.kafka.listener.SeekToCurrentErrorHandler;
 import org.springframework.kafka.support.converter.RecordMessageConverter;
 import org.springframework.kafka.support.converter.StringJsonMessageConverter;
+import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.util.backoff.FixedBackOff;
 
 import java.util.concurrent.atomic.AtomicInteger;
@@ -42,6 +43,7 @@ import java.util.concurrent.atomic.AtomicInteger;
  *
  */
 @SpringBootApplication
+@EnableScheduling
 public class Application {
 
 	private final Logger logger = LoggerFactory.getLogger(Application.class);
