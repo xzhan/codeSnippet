@@ -68,7 +68,7 @@ public class ProxyController {
         CaffeineCache caffeineCache = (CaffeineCache) cacheManager.getCache("failMessageCache");
         Cache<Object, Object> nativeCache = caffeineCache.getNativeCache();
         String messageUUID = UUID.randomUUID().toString();
-        String key = "["+ messageUUID +"]"+ "[" + message.getTopic() + "]" + "[" + message.getKey() +"]";
+        String key = messageUUID +"]" + message.getTopic() + "]"  + message.getKey() +"]";
         nativeCache.put(key, message.getValue());
         logger.info("-- wns start to put into cache");
         nativeCache.asMap().forEach((k,v) -> logger.info(k + " : " + v));
